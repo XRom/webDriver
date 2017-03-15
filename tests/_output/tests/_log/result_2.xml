@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="2" assertions="1" failures="0" errors="0" time="92.419286">
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="fillSearchStringTest" class="OOPtestCest" feature="fill search string test" assertions="1" time="92.419286"/>
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="safeXSSTest" class="OOPtestCest" feature="safe xss test" assertions="0" time="0.000000"/>
+  </testsuite>
+</testsuites>

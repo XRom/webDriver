@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="1" assertions="1" failures="0" errors="0" time="96.914543">
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="autoCompliteTest" class="OOPtestCest" feature="auto complite test" assertions="1" time="96.914543"/>
+  </testsuite>
+</testsuites>

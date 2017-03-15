@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuites><testsuite name="acceptance" tests="8" assertions="4" failures="0" errors="0" time="377.740605">
+    <testcase name="TestYandexWeather" file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\TestYandexWeatherCept.php" feature="est nothing" assertions="0" time="0.000000"/>
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="safeSQLTest" class="OOPtestCest" feature="safe OK" assertions="0" time="1.079061"/>
+  
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="fillSearchStringTest" class="OOPtestCest" feature="fill search string test" assertions="1" time="92.419286"/>
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="safeXSSTest" class="OOPtestCest" feature="safe xss test" assertions="0" time="0.000000"/>
+  
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="clearSearchStringTest" class="OOPtestCest" feature="clear search string test" assertions="1" time="92.419286"/>
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="inputOverFlowTest" class="OOPtestCest" feature="input over flow test" assertions="0" time="0.000000"/>
+  
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="findTest" class="OOPtestCest" feature="find test" assertions="1" time="94.908429"/>
+  
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="autoCompliteTest" class="OOPtestCest" feature="auto complite test" assertions="1" time="96.914543"/>
+  </testsuite></testsuites>

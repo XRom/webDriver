@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="1" assertions="1" failures="0" errors="0" time="94.908429">
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="findTest" class="OOPtestCest" feature="find test" assertions="1" time="94.908429"/>
+  </testsuite>
+</testsuites>

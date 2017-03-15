@@ -1,0 +1,59 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+modules:
+    enabled:
+    #    - PhpBrowser:
+    #        url: http://yandex.ru
+   #     - \Helper\Acceptance        
+        - WebDriver:
+            url: http://yandex.ru
+            browser: chrome
+        - \Helper\Acceptance
+        
+#        - Db:
+#            dsn: 'mysql:dbname=testdb;host=127.0.0.1' 
+#            user: 'root'
+#            dump: 'tests/_data/dump.sql'
+#            populate: true
+#            cleanup: true
+#env:
+#    env1:
+#        modules:
+#            config:
+#                Db:
+#                    dsn: 'mysql:dbname=testdb_1;host=127.0.0.1' 
+#                WebDriver:
+#                    url: 'http://test1.localhost/'
+#    env2:
+#        modules:
+#            config:
+#                Db:
+#                    dsn: 'mysql:dbname=testdb_2;host=127.0.0.1' 
+#                WebDriver:
+#                    url: 'http://test2.localhost/'
+#    env3:
+#        modules:
+#            config:
+#                Db:
+#                    dsn: 'mysql:dbname=testdb_3;host=127.0.0.1' 
+#                WebDriver:
+#                    url: 'http://test3.localhost/'
+#    env4:
+#        modules:
+#            config:
+#                Db:
+#                    dsn: 'mysql:dbname=testdb_4;host=127.0.0.1' 
+#                WebDriver:
+#                    url: 'http://test4.localhost/'
+#    env5:
+#        modules:
+#            config:
+#                Db:
+#                    dsn: 'mysql:dbname=testdb_5;host=127.0.0.1' 
+#                WebDriver:
+#                    url: 'http://test5.localhost/'

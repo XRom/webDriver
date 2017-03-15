@@ -1,0 +1,2 @@
+tests/acceptance\TestYandexWeatherCept.php
+tests/acceptance\OOPtestCest.php:safeSQLTest

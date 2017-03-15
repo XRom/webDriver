@@ -1,0 +1,29 @@
+# netbeans project files
+nbproject
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# Apache server local config
+Apache-PHP-7_vhost.conf
+
+# developer key
+.developer_id_rsa
+
+# robo itself is not needed
+robo.phar
+
+# codecept itself is not needed
+codecept.phar
+

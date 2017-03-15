@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="2" assertions="0" failures="0" errors="0" time="1.079061">
+    <testcase name="TestYandexWeather" file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\TestYandexWeatherCept.php" feature="est nothing" assertions="0" time="0.000000"/>
+    <testcase file="C:\OPEN\OpenServer\domains\robocept\tests\acceptance\OOPtestCest.php" name="safeSQLTest" class="OOPtestCest" feature="safe OK" assertions="0" time="1.079061"/>
+  </testsuite>
+</testsuites>
