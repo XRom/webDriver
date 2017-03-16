@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'php -v'
+                bat 'bash php -v'
             }
         }
     }
