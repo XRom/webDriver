@@ -1,9 +1,9 @@
 pipeline {
-    agent { docker 'php' }
+    agent any
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
-                sh 'php --version'
+                bat 'php -v'
             }
         }
     }
