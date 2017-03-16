@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat 'php robo.phar parallel:all'
+                bat 'php C:\OPEN\OpenServer\domains\robocept\robo.phar parallel:all'
             }
         }
     }
